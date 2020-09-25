@@ -18,7 +18,7 @@ function nowServing(currentLine) {
 }
 
 function currentLine(line) {
-   let nowInLine=[''];
-    return nowInline[i+1] + nowInline[i+2]
+   let people=[''];
+    return people[i+1] + people[i+2]
     
 }
