@@ -19,6 +19,6 @@ function nowServing(currentLine) {
 
 function currentLine(line) {
    let nowInLine=[''];
-    return nowInline[i].length + nowInline[i]
+    return nowInline[i+1] + nowInline[i]
     
 }
