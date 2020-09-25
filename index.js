@@ -28,7 +28,7 @@ function currentLine(line) {
   }
   for(let i=0; i < line.lenght; i++) {
     //
-    let info =(i + 1) + ". " + 
+  peopleInLine += (i + 1) + ". " + 
   }
   return peopleInLine;
 }
