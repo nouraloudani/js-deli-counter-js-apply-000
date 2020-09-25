@@ -19,6 +19,7 @@ function nowServing(currentLine) {
 
 function currentLine(line) {
    let nowInLine=[''];
+   let i=1
     return ''
     
 }
