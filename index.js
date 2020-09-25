@@ -1,11 +1,11 @@
 function takeANumber(currentLine, newPerson) {
   
   currentLine.push(newPerson); //[] -> ["Ada"]
-  return "Welcome, " + newPerson + ". You are number " + currentLine.length + " in line.";
+  return "Welcome, " + newPerson + ". You are number " + line.length + " in line.";
   
 }
 const line = [];
-takeANumber(currentLine, "Ada");
+takeANumber(line, "Ada");
 
 function nowServing(currentLine) {
   
@@ -17,7 +17,8 @@ function nowServing(currentLine) {
     return "Currently serving " + firstPersonInLine + '.';
 }
 
-function currentLine(katzDeliLine) {
-  
+function currentLine(line) {
+   nowInLine=[];
+   
   
 }
