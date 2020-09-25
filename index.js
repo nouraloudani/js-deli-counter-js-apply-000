@@ -22,6 +22,6 @@ function currentLine(line) {
     return people[i+1] + people[i+2]
     
 if (line.length === 0) {
-    return "There is nobody waiting to be served!";
+    return "The line is currently empty.";
   }
 }
