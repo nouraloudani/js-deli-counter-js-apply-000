@@ -21,15 +21,14 @@ function currentLine(line) {
     // var peopleInLine='The line is currently: ' + 1 + ". " + line[0] + 2 + ". " + line[1];
 
   
-  // var peopleInLine='The line is currently: ' ;
+  var peopleInLine='The line is currently: ' ;
   
-  var peopleInLine = '';
   if (line.length === 0) {
     return "The line is currently empty.";
   }
   for(let i=0; i < line.lenght; i++) {
     //
-    (i + 1) + ". " + 
+    let info =(i + 1) + ". " + 
   }
   return peopleInLine;
 }
