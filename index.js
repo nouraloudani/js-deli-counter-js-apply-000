@@ -1,11 +1,11 @@
 function takeANumber(currentLine, newPerson) {
   
   currentLine.push(newPerson); //[] -> ["Ada"]
-  return "Welcome, " + newPerson + ". You are number " + line.length + " in line.";
+  return "Welcome, " + newPerson + ". You are number " + currentLine.length + " in line.";
   
 }
 const line = [];
-takeANumber(line, "Ada");
+takeANumber([], "Ada");
 
 function nowServing(currentLine) {
   
