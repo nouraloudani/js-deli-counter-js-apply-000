@@ -31,6 +31,7 @@ function currentLine(line) {
     peopleInLine += spotInLine + ". " + line[i] + ", ";
     spotInLine++;
   }
+  
   return peopleInLine;
 }
 // line -> ["Ada", "Grace"]
