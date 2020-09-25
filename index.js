@@ -31,7 +31,7 @@ function currentLine(line) {
     peopleInLine += spotInLine + ". " + line[i] + ", ";
     spotInLine++;
   }
-  peopleInLine.substring(0,peopleInLine.length-1)
+  peopleInLine.substring(0,peopleInLine.length-2)
   
   return peopleInLine;
 }
