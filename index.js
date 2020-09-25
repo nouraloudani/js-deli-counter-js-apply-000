@@ -18,10 +18,11 @@ function nowServing(currentLine) {
 }
 
 function currentLine(line) {
-   let people=[''];
+   var peopleInLine='';
     return people[i+1] + people[i+2]
     
   if (line.length === 0) {
     return "The line is currently empty.";
   }
 }
+//"The line is currently: 1. Ada, 2. Grace"`
