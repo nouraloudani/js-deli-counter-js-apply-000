@@ -32,6 +32,7 @@ function currentLine(line) {
     spotInLine++;
   }
   peopleInLine.substring(0,peopleInLine.length-1)
+  
   return peopleInLine;
 }
 // line -> ["Ada", "Grace"]
