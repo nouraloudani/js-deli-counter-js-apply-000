@@ -18,7 +18,7 @@ function nowServing(currentLine) {
 }
 
 function currentLine(line) {
-   nowInLine=[];
-   
-  
+   let nowInLine=[''];
+    return ''
+    
 }
