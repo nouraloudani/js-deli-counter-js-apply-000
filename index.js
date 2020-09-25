@@ -33,7 +33,7 @@ function currentLine(line) {
   }
   peopleInLine.substring(0,peopleInLine.length-2)
   
-  return peopleInLine;
+  return peopleInLine.substring(0,peopleInLine.length-2);
 }
 // line -> ["Ada", "Grace"]
 //"The line is currently: 1. Ada, 2. Grace"`
