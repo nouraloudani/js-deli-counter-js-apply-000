@@ -27,8 +27,7 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
   for(let i=0; i < line.lenght; i++) {
-    //
-  peopleInLine += (i + 1) + ". " + 
+    peopleInLine += (i + 1) + ". " + line[i] + ', ';
   }
   return peopleInLine;
 }
